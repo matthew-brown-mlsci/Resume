@@ -1,0 +1,47 @@
+#/usr/bin/python
+#
+# Cover letter routine
+#	primary goal:	attract attention from a hiring manager sufficient for a call-back
+#	author:		Matthew.Brown.mls@gmail.com		
+
+Import my_skillsets
+Import job_posting
+Import eloquent_introductions
+Import my_interesting_hobbies
+Import random
+
+func Cover_Letter(company_name, job_title, skillsets_preferred):
+  try:	
+    print(eloquent_introductions.catchy_into)
+    print(“\n”)
+    print(“I believe I would be a valuable asset due to my expertise in: “), end =” “)
+    for skillset_preferred in skillsets_preferred:
+      if (skillset_preferred in my_skillsets.technical_skillsets):
+        print(skillset_preferred + “, “, end =” “)
+    print(“and learning new technical skillsets!”)
+    print(“\n”)
+    print(“I am very interested in having a detailed conversation “)
+    print(“regarding the “ + job_title + “ opportunity within “ + company_name + “.”)
+    print(“\n”)
+    print(“Thank you for your time and consideration.”)
+    
+  except: HiringManagerLostInterestError:
+    print(“While I love the technical challenges associated with “, end=” “)
+    print(my_skillsets.technical_skillsets[random.randint(0, \
+          len(my_skillsets.technical_skillsets))], end=” “)
+    print(“ my passion lies in “, end=” “)
+    for hobbie in my_interesting_hobbies:
+      print(hobbie + “, “)
+    print(“and balancing those interests with a position that allows “)
+    print(“a comfortable work-life balance.”)
+    print(“\n”
+    print(“I would like to explore the potential of your “ + job_title + “ “)
+    print(“opportunity, and perhaps share some experiences on the topic of “)
+    print(my_interesting_hobbies [random.randint(0, \
+          len(my_interesting_hobbies))] + ‘!’)
+    print(“\n”)
+    print(“Thank you for your time and consideration.”)
+
+
+if __name__=='__main__':
+  Cover_Letter(job_posting[company_name], job_posting[job_title], job_posting[skillsets_preferred])
