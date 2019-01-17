@@ -1,0 +1,11 @@
+Database Experience:
+
+•	Oracle (10g/11G)
+•	Microsoft SQL Server (2000, 2008, 2014)
+•	MySQL
+•	PostgreSQL
+•	SQLite
+•	Intersystems Cache
+•	Connecting to these databases via ODBC \w Crystal Reports & various programming language APIs
+•	Using Python/AutoIT/Powershell/etc to transfer/manipulate  data between different databases/database types
+•	Creating Web->Database bridges via IIS/ASP/ODBC that utilize JSON over HTTP connections to facilitate database interaction.

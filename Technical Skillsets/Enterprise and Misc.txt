@@ -1,0 +1,19 @@
+Enterprise / Misc application experience:
+
+•	Service-Now (including data extraction via RESTful python scripts)
+•	Microsoft Office (Word, Excel, Outlook, PowerPoint, Access, Visio) (2000, 2003, 2010, 365)
+•	Cygwin
+•	Git (& Github)
+•	Eclipse IDE (Java perspective)
+•	Selenium + various popular web drivers
+•	Various SysInternals utilities (Process Explorer, Process Monitor, Handle, etc)
+•	
+•	Citrix XenApp (as an admin) (v5.0, v6.5)
+•	AQT
+•	Microsoft Sharepoint / Teams
+•	Cisco Anyconnect VPN client
+•	Various remote support tools (Bomgar, Landesk, RDP, Putty/SSH, Teamviewer, WebEx, DameWare, X3270, etc)
+•	Microsoft Remote desktop connection manager / mRemoteNG RDP/SSH/Telnet connection manager
+•	VMware vSphere server/web console, windows management client, ESXi
+•	ZFS RAID implementations on FreeBSD
+•	VirtualBox

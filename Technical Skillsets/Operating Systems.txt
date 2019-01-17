@@ -30,6 +30,8 @@ Operating Systems (direct experience):
 	- Installation/Configuration
 	- I used to re-sell Sun & SGI hardware on eBay.  As such I have a long history installing both Solaris and Irix.
 	- Fun fact, I still have a NextStation 030 Cube in my basement, which I have installed/provisioned/etc.
+•	ESXi hypervisor
+	- Install/configure to x64 target, remote configuration via VMWare vSphere & VMWare windows vSphere app
 •	Some limited exposure to IBM z/OS / MVS / MUSIC/SP, VMS, OpenVMS, Minix.
 	- I am occasionally involved in a mainframe process @ Ascension Technologies, and as such have access to Cerner mainframe
 	  time leased by Ascension.

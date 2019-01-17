@@ -1,0 +1,23 @@
+Clinical Application support experience:
+
+•	Allscripts Lab (aka McKesson Lab aka Horizon Lab) (v8 -> v16.03)
+•	3M CRS
+•	CBord
+•	CNexT
+•	Allscripts Sunrise (v5.7) (Intersystems Cache based db/app)
+•	Pathlore
+•	ECS
+•	Mediware HCLL + APBC
+•	Lawson (LSF + TM)
+•	McKesson Practice Plus (aka PPM)
+•	Nuance Clintegrity 360 (aka Quantim)
+•	UL Systoc
+•	Sunquest PowerPath (aka Tamtron)
+•	Sunquest Antrim (Intersystems Cache based db/app)
+•	Sunquest Lab (Intersystems Cache based db/app)
+•	Abbott PrecisionWeb
+•	Powerscribe 360
+•	Dictaphone
+•	Formfast
+•	ANSOS (Cloud version)
+•	eForms

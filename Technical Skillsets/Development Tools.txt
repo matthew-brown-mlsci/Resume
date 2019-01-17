@@ -1,0 +1,113 @@
+Development Tool Experience:
+
+•	Python (v2.x & v3.x)
+	- With Spider IDE
+	- Designed/implemented TCP server that allowed persons/automated services to interact with proprietary components of a laboratory
+	  laboratory information system (running on Redhat Linux)
+	- Designed an extract algorithm for various Service-Now tables to SQLite db
+	- Created TCP server as a windows service, used to facilitate various work-arounds for buggy clinical application software.
+	- Authored windows service that monitors a SQLite database, queries via rulesets stored in the database, prints clinical
+	  application interface data as appropriate.
+	- Designed a TCP server that acted as a pseudo-printer target, catching print job data, parsing data, and passing to a 
+      remote server via JSON/RESTful protocol.
+	- Created a scanning program to find all DNS servers in the enterprise
+	- Created numerous report post-processing programs that live on a Redhat Linux server
+		- Capture/parse report, send via secure e-mail
+		- Capture/parse report, copy to windows fileshare
+	- Designed a capture/extract/parsing program that captured TCP data, and used the data to find/parse/manipulate HL7'esque
+	  data, then interact with various proprietary components of a clinical application server.
+	- Dozens of one-off text parsing tasks for various issues that have come up in a clinical enterprise environment
+	- Authored a text parsing routine that was used to automate entry of laboratory clinical results (ELISA TB testing)
+	- Wrote/Maintain a home project that captures/parses stock market data/news/etc, cataloging in a MySQL database.
+	- Probably a bunch of other things I can't think of right now - Python is my go-to tool when a problem exceeds a
+	  simple shell script / batch file!
+
+•	Javascript (\w HTML, CSS, Bootstrap, JQuery)
+	- Created an IIS site that automated many of the admin tasks associated with maintaining a database of client PCs for
+	  an LIS app.  This site used javascript to interact with ASP classic code that interacted with databases as well as 
+	  custom AutoIT widgets.
+	- Created a website that allowed IS staff to search/review interface errors for the clinical laboratory system
+	  Site also allowed for creation/changing of rules to control which interface errors were printed.  Interacted with
+	  windows server-side SQLite database.
+	- Created a website that tracked user's locations based on dns resolution / ip address blocks.  Interacted with SQLite
+	  database server-side.
+
+•	Shell scripting (Bash, Ksh, etc)
+	- Wrote/maintain a number of Bash scripts that get kicked off \w cron on RedHat Linux laboratory application server.
+	- Scripts: Move/concatenate files, check certain filesizes, check propietary vendor faxing conditions, archive reports,
+	  make Oracle database changes, copy clinical data files to windows fileshares, etc - most with e-mail notification for
+	  errors and/or relevant events.
+	- Used Ksh for similar tasks on Allscripts Sunrise financials server, Sunquest lab AIX server, etc.
+	- Supported McKesson Practice Plus server-side financial/reporting shell scripts.  This environment had hundreds of custom 
+	  shell scripts, and required a good working knowledge to understand/diagnose problems.
+	- History of coming up with short, useful shell scripts for all the one-offs that come up - generally in concert with
+	  cat/grep/awk/find/etc
+	  
+•	AutoIT
+	- Created a multiuser database-driven application that tracked enterprise print queues.  The tool had a server-side 
+	  component that would periodically scan Windows/Unix/vendor proprietary print queue information, dns zone data and 
+	  ping return data. Changes/additions/deletions for all of this data was tracked in a MS SQL Server database via a 
+	  schema I designed. A client-side PC component would allow users to access this data coherently, search by any field,
+	  sort by any field, and allowed data views that would display all the clinical applications with defined queues to an
+	  ip address, changes in dns, history of ping returns for printer ip's, etc.  This information allows IS support staff
+	  to track down changes (physical printer, dns, ip, queues, etc) and facilitate communicating changes to all vested
+	  parties.  
+	- Authored dozens of one-off automation scripts to help alleviate tedious data-entry tasks.
+	- Automated a citrix installation for an upgrade project.  The status-quo process involved manually having 2-3 people 
+	  touch dozens of citrix servers, my process allowed 1 person to complete all work in under 20 minutes.
+	- Created ETL routines to transfer data between MySQL -> MSSQL Server, as well as MSSQL to Oracle.
+	- Used AutoIT to create a GUI interface to a Jet db to facilitate a number of laboratory tasks, including patient
+	  result reporting/archiving, generation of crystal reports (patient, qc \w levey jennings, calibrators, etc).  
+
+•	Powershell
+	- Wrote complex citrix login script.  Powershell had to do things such as: query Oracle database server, connect to custom
+	  TCP servers and interact with interface, log all failures/warnings in Oracle db, interact with vendor citrix client after
+	  launch to verify certain conditions were operating correctly.
+	- I frequently use powershell for any task suited for windows.  AD queries, Windows server queries, etc.
+	
+•	Java
+	- Coded a Selenium-dependent app that can create incidents in the Service-Now vendor system.
+	- Coded a simple TCP server (proof of concept)
+	- While I have had some Java exposure, only recently (11/2018) have I started using this language to create programs for the
+	  enterprise environment.  
+	- Used \w Eclipse IDE
+
+•	WinBatch
+	- Replaced a number of legacy WinBatch scripts in-use @ WFHC's clinical enterprise environment.  Most scripts
+	  moved to AutoIT, Python, or Powershell.
+
+•	Perl
+	- I've been using Perl off-and-on since the late 90's, and it's my fall-back if I can't have Python!
+	- Designed a TCP server (on AIX) that captured text as a pseudo-printer for a clinical lab app, output parsed/concatenated/copied
+	  to a remote PC for the purposes of archiving clinical laboratory blood bank testing data.  In the event of a system/network
+	  downtime, life-saving clinical data was available to the blood bank staff.
+
+•	Visual Basic
+	- Occasionally a task will come up which looks like a good candidate for a Excel/VB Macro.  I'm no expert, but I can
+	  usually fix/create VB for the purposes of integrating programming logic in a Microsoft Office task.
+
+•	ASP Classic
+	- My employer, ridgidly denying license requests for software (Visual Studio namely), placed me in a position where building
+	  web applications based on ASP Classic seemed very reasonable (debugging can be done in a web browser \w IIS, no IDE needed!)
+	- I've used ASP Classic to create JSON/RESTful interfaces to ODBC database connections.
+	- This has allowed me to create javascript-powered web apps that interact with practically any database
+	- I've also used ASP Classic to power pass-thru AD authentication for web applications
+	- Designed some ASP Classic widgets that launch AutoIT code per IIS web request, which in turn facilitate TCP communication to
+	  external servers.
+	  
+•	C / C++
+	- I had some C/C++ in college, but haven't had occasion to use it much as of late.  My name is listed as a minor contributor in 
+	  the FreeBSD kernel source for some work I did on one of the device drivers many years ago.
+
+•	Pascal
+	- I took a Pascal class when I was in high school.
+
+•	ASM (Z80)
+	- I've written some simple programs for the TI-85 graphing calculator, many years ago.
+
+•	SAS/JCL
+	- I've learned enough SAS/JCL to read/interpret some legacy code in order to port a mainframe process to a different architecture.
+
+•	git
+	- I'm a relatively recent git convert, and am working on publishing some of my historical code on Github, as time allows!
+	
