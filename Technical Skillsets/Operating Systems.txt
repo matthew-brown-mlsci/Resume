@@ -1,0 +1,39 @@
+Operating Systems (direct experience):
+
+•	Windows (3.1/95/98/XP/7/8/10)
+	- Installation/Configuration/Administrative duties/Troubleshooting/etc
+	- I've been installing/configuring Windows OS's @ home since ~1994.  I've re-imaged a number of PC's (win7 x86/x64, Win10) in the
+	  course of being employed @ Wheaton Franciscan Healthcare, and was entrusted with administrator rights on all PCs enterprise-wide.
+	- I'm familiar administrating PC's that live in an enterprise corporate domain, AD concepts and usage, etc.
+•	Windows Server (NT 4.0, 2000, 2003, 2008, 2008R2, 2012, 2016)
+	- Installation/Configuration/Administrative duties/Troubleshooting/etc
+	- I hold administrative priviledges on dozens of Windows Server instances @ Ascension Technologies, and regularily use various
+	  admin functions to provide thorough support.  
+	- I have installed/used all of these versions at various times @ my home lab.
+•	Linux (Redhat, Slackware, Ubuntu)
+	- I have installed/used various Linux distributions, starting back in ~1995.
+	- @ Ascension Technologies, I regularily use the CLI on various clinical application servers (Enterprise Redhat) to solve various
+	  issues as they arise.  I like using Bash, and definitely enjoy using the various GNU utilities to expediate solving problems.
+•	FreeBSD, OpenBSD, NetBSD
+	- I've had a machine @ home running FreeBSD since ~1995
+	- My name is in the kernel source as a minor contributor! (matt@dqc.org)
+	- I Built/maintain my current FreeBSD server \w ZFS implementation (15 discs to SAS HBA).  Server hosts a mix of FreeBSD / Windows 
+	  virtual hosts, as well as a MySQL instance, PostgreSQL instance, iSCSI targets to ZFS (targets used by ESXi hosts), PF firewall,
+	  Samba server, etc.  Uptime ~2 years.
+	- I've installed/used either OpenBSD or NetBSD on a variety of architecure targets, i386, amd64, sparc, alpha, powerpc, next68k,
+	  sun3, sgimips, mips.  To my wife's dismay, I still have the hardware for several of these architectures in my basement.
+•	HP-UX, AIX
+	- I've supported various clinical systems (hospital registration/billing, ambulatory registration/billing, etc) that had app
+	  servers running HP-UX or AIX.  I have carte blanche sudo access to these systems, and worked with the system engineers
+	  regularily on technical issues.
+•	Solaris, Irix, NeXTSTEP
+	- Installation/Configuration
+	- I used to re-sell Sun & SGI hardware on eBay.  As such I have a long history installing both Solaris and Irix.
+	- Fun fact, I still have a NextStation 030 Cube in my basement, which I have installed/provisioned/etc.
+•	Some limited exposure to IBM z/OS / MVS / MUSIC/SP, VMS, OpenVMS, Minix.
+	- I am occasionally involved in a mainframe process @ Ascension Technologies, and as such have access to Cerner mainframe
+	  time leased by Ascension.
+	- I have installed OpenVMS on a DEC Alpha.  
+	- I've done troubleshooting on a VMS emulator used for clinical information archiving while working for WFHC
+	- I installed Minix \w X on a 386 \w 2MB of memory a very long time ago.  
+	

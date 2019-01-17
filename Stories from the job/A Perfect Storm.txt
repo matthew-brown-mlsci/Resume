@@ -1,0 +1,49 @@
+A Perfect Storm
+
+Back in 2014 I was working as an application analyst, primarily responsible for a laboratory information system,
+anatomic pathology system, and a blood bank system.  The hospital system utilized a registration system, that
+fed a middleware 'unique-id' product, which in turn fed all the downstream systems, hospital information system, lab
+pharmacy, radiology, etc.
+
+One night there was a problem with the scheduling system hardware, prompting the technical staff at-hand (not me) to
+attempt moving system functionality to the registration's system secondary cluster node (AIX boxes).  Unbeknownst to the folks
+involved with this process, one of the logical volumes critical to the database/app was corrupt, and had been for
+some time (over a week).  The database had been running without any obvious issues despite this problem, unfortunately
+the errors this issue generated were not being monitored by, err, anyone.
+
+Swapping cluster nodes requires restarting the database/application.  Typically an integrity check is run against the database
+prior to restarting it on the new target node.  This procedure was skipped (doh!).  When the system tried to come back up,
+it was abundantly clear nothing was working correctly, and the data on the corrupt volume was not salvagable.  Unfortunately, the
+same errors that corrupted the data had prevented the regular backup processes from completing for a period of over a week.  
+
+At this point in time all hospitals go to "downtime mode" for registration, along with all-work-on-paper for new patients
+for all downstream systems.
+
+Cue the registration system vendor, who manages to pull a log of all outgoing transactions that survived the corruption issue. 
+To restore the data, they recommend that our company <cough> manually enter in the data they extracted from the log of
+outgoing transactions.  From the point of the last good backup.  They provide spreadsheets, and registration IS folks start
+splitting up the lists between qualified staff (still not me thankfully), to expediate the manual entry process.  This process 
+takes a little more than 3 days, during which all the hospitals are still on paper (think paper disaster).
+
+So the registration system auto-increments "new" medical record numbers each time a patient is registered.  The MRN can
+be over-ridden manually, but the system defaults to putting in the next MRN in the sequence.  The IS folks manually keying
+in all the missing records broke up the lists into consecutive MRN spreadsheets.  As each registration was performed the data
+went out to all the downstream systems (A04's and A08's).  
+
+Into the 3rd day of downtime, inconsistencies were starting to get noticed by some of the downstream systems.  It was discovered
+that the folks keying in the data had likely accidentally "skipped" a row, here and there, but continued to trust the auto-incrementing
+MRN's.  The offset created a situation where an unknown (and likely large) group of patients had been assigned the an incorrect MRN.  
+
+And this is where it truly gets ugly.
+
+All the various downstream systems take A04/A08 HL7 messages and apply that data to their various patient databases based on their own
+interface rules.  Some systems match records based solely on MRN's (<cough>lab<cough>), some need a match on lastname + DOB to update
+a record.  As mismatched records were absorbed by the downstream systems, patient names were changed, lab results for one patient were
+now associated with a different patient for example.  Nothing could be trustet at this point, in any of the downstream systems.
+What began as a registration system problem had blossomed into a horrific disaster.  And nobody had a database that could be trusted 
+or used as a gold standard to start sorting the mess out.
+
+We also had an ICU patient at one of our hospitals die during this 3 day period.
+
+
+
