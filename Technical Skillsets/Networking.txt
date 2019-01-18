@@ -5,5 +5,7 @@ o	Working with various common services: DNS, telnet, ssh, smtp, ftp, tftp, snmp,
 o	Installation/Configuration/Troubleshooting/etc for all listed common services
 •	Desktop PC physical hardware (10/100/1000baseT, BNC/AUI based network adapters, wireless network technologies etc)
 •	Firewalls (IPFilter, IPF) – rules, filters, redirects, routing, NAT, using multiple NICs, etc.
-•	Encrypted tunnels (SSH), creating port/service redirects over tunnels, troubleshooting HL7 interfaces over VPNs \w vendor/local network resources until interfaces are working correctly. 
-•	Serial interfaces (pinouts/wiring/soldering, configuration, interfacing POC equipment, terminals, boot via serial console, installing/configuring Lantronix \w modem pool for network -> fax bridge, etc)
+•	Encrypted tunnels (SSH), creating port/service redirects over tunnels, troubleshooting HL7 interfaces over VPNs \w
+	vendor/local network resources until interfaces are working correctly. 
+•	Serial interfaces (pinouts/wiring/soldering, configuration, interfacing POC equipment, terminals, boot via serial
+	console, installing/configuring Lantronix \w modem pool for network -> fax bridge, etc)

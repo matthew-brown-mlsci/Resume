@@ -8,7 +8,8 @@ Database Experience:
 	- SQL Management Studio
 	- Designing schemas, understanding vendor schemas
 	- Writing custom software that interacts \w SQL Server databases
-	- Support clinical apps with SQL Server database dependencies (Sunquest PowerPath, Nuance Clintegrity, Pathlore, Systoc, HCLL, ECS, etc)
+	- Support clinical apps with SQL Server database dependencies (Sunquest PowerPath, Nuance Clintegrity, Pathlore, Systoc,
+	  HCLL, ECS, etc)
 •	MySQL 
 	- Installation/config on FreeBSD + Windows
 	- Install/configure/administrate \w PhpMyAdmin + Apache
@@ -28,7 +29,8 @@ Database Experience:
 		- Firefox SQLite Manager
 		- SQLite database browser lite
 •	Intersystems Cache
-	- Supported clinical apps with Cache database dependencies (Sunquest Lab, Data Innovations Instrument Manager, Allscripts Sunrise Financials, Sunquest Antrim, etc)
+	- Supported clinical apps with Cache database dependencies (Sunquest Lab, Data Innovations Instrument Manager, Allscripts
+	  Sunrise Financials, Sunquest Antrim, etc)
 •	Connecting to these databases via ODBC \w Crystal Reports & various programming language APIs
 •	Using Python/AutoIT/Powershell/etc to perform ETL functions on data between different databases/database types
 •	Creating Web->Database bridges via IIS/ASP/ODBC that utilize JSON over HTTP connections to facilitate database interaction.

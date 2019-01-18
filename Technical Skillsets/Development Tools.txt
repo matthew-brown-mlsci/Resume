@@ -9,7 +9,7 @@ Development Tool Experience:
 	- Authored windows service that monitors a SQLite database, queries via rulesets stored in the database, prints clinical
 	  application interface data as appropriate.
 	- Designed a TCP server that acted as a pseudo-printer target, catching print job data, parsing data, and passing to a 
-      remote server via JSON/RESTful protocol.
+	  remote server via JSON/RESTful protocol.
 	- Created a scanning program to find all DNS servers in the enterprise
 	- Created numerous report post-processing programs that live on a Redhat Linux server
 		- Capture/parse report, send via secure e-mail
