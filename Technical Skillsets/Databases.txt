@@ -1,11 +1,34 @@
 Database Experience:
 
 •	Oracle (10g/11G)
+	- Designing schemas, understanding vendor schemas
+	- Interacting with Oracle db's \w Powershell
+	- Supported clinical apps with Oracle database dependencies (Allscripts Lab, McKesson Practice Plus)
 •	Microsoft SQL Server (2000, 2008, 2014)
-•	MySQL
-•	PostgreSQL
+	- SQL Management Studio
+	- Designing schemas, understanding vendor schemas
+	- Writing custom software that interacts \w SQL Server databases
+	- Support clinical apps with SQL Server database dependencies (Sunquest PowerPath, Nuance Clintegrity, Pathlore, Systoc, HCLL, ECS, etc)
+•	MySQL 
+	- Installation/config on FreeBSD + Windows
+	- Install/configure/administrate \w PhpMyAdmin + Apache
+	- Design custom schemas
+	- Perform ETL \w custom software (AutoIT + Python)
+	- Design javascript powered websites that utilize MySQL backend
+•	PostgreSQL (\w PhpPgAdmin + Apache)
+	- Installation / config on FreeBSD vm
+	- Just started exploring capabilities of this db recently (12/2018) - looks great so far!
 •	SQLite
+	- My go-to for any small data project where "This requires more than a spreadsheet"!
+	- Utilized \w ASP Classic + Python
+		- Created MLab node database (lives on Redhat Linux application server)
+		- Created MLab interface error database (Lives on Windows 2012 server, feeds web front-end)
+		- Holds my Service-Now data extracts
+	- Familiar with 3rd party SQLite db browsers:
+		- Firefox SQLite Manager
+		- SQLite database browser lite
 •	Intersystems Cache
+	- Supported clinical apps with Cache database dependencies (Sunquest Lab, Data Innovations Instrument Manager, Allscripts Sunrise Financials, Sunquest Antrim, etc)
 •	Connecting to these databases via ODBC \w Crystal Reports & various programming language APIs
 •	Using Python/AutoIT/Powershell/etc to perform ETL functions on data between different databases/database types
 •	Creating Web->Database bridges via IIS/ASP/ODBC that utilize JSON over HTTP connections to facilitate database interaction.
