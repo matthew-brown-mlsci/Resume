@@ -1,37 +1,37 @@
 
 (@ Ascension Technologies)
-- An Epic upgrade created an interface issue where some types of new order transactions would be rejected by MLab lablink interface engine. 
+- An Epic upgrade created an interface issue where some types of new order transactions would be rejected by MLab lablink interface engine.
   My solution to this problem required technical root cause analysis, understanding data flow between clinical production systems, HL7
   standards, text parsing and TCP server routines (in Python), and application specific requirements for any implemented solution.
 	- I created a script (in Python, on a RedHat Linux app server) that: 
 	  * Captured specific interface errors on the MLab Linux application server, as they were created
 	  * Located the original incoming transaction that generated the error
 	  * Edited the transaction such that the interface issue was resolved
-	  * Resent the edited HL7 transaction through lablink  interface engine– all fast enough such that MLab’s container logic would group 
+	  * Resent the edited HL7 transaction through lablink  interface engine– all fast enough such that MLab’s container logic would group
 	    new orders + edited/resent orders together.
 	This script was used in a production environment for ~3 years before being deprecated by various Epic-side changes.
 
 (@ Ascension Technologies)
 - A health ministry-wide initiative to change all ip addresses (new network schema required by WFHC merger with Ascension Healthcare)
-  impacted hundreds of point-of-care devices with hard-coded self ip/server ip values.  The POC vendor suggested an extended downtime (days)
-  plus large $$ contract to fly personnel on-site for changes.  My solution required a good understanding of TCP/IP networking, enterprise 
-  environment demands associated with production clinical systems, and time/budget constraints.
+  impacted hundreds of point-of-care devices with hard-coded self ip/server ip values.  The POC vendor suggested an extended downtime
+  (days) plus large $$ contract to fly personnel on-site for changes.  My solution required a good understanding of TCP/IP networking,
+  enterprise environment demands associated with production clinical systems, and time/budget constraints.
 	- Implemented solution (per my recommendations):
 	  * I worked with one of our network engineers to use virtual IP’s + in-house personnel to make all configuration changes over a 4 week
 	    time period with downtime limited only to each individual POC device as it was adjusted.  
-	  * I also came up with a way to remotely adjust ~50% of the POC base stations (those that supported remote adjustment) saving quite a 
+	  * I also came up with a way to remotely adjust ~50% of the POC base stations (those that supported remote adjustment) saving quite a
 	    bit of time and mileage.  
 	  * This effort made a huge impact on patient care, as well as the financial liability of the IP remuneration project.
 
 (@ Ascension Technologies)
-- Troubleshooting print queue issues in a clinical environment with multiple disparate systems sharing physical printers often resulted in a
-  chaotic enterprise process.  To help alleviate some of the difficulty, I wrote a custom database driven (SQL Server) multi-user application
-  that keeps track of printer definitions / changes throughout the WFHC enterprise environment, including Windows Server print queues, MLab 
-  queues, Sunquest lab queues, Allscripts Sunrise, McKesson Plus, Unix.  
+- Troubleshooting print queue issues in a clinical environment with multiple disparate systems sharing physical printers often resulted in
+  a chaotic enterprise process.  To help alleviate some of the difficulty, I wrote a custom database driven (SQL Server) multi-user
+  application that keeps track of printer definitions / changes throughout the WFHC enterprise environment, including Windows Server print
+  queues, MLab queues, Sunquest lab queues, Allscripts Sunrise, McKesson Plus, Unix.  
 	- This project required locating and aggregating data from multiple disparate sources, understanding data similarities and differences,
-	  creating a database schema sufficient to capture, store and remove data efficiently, write an application for end-users that interacted
-	  with the database, and write an application that periodically scanned/aggregated for changes in the enterprise environment, updating the
-	  database as necessary.  
+	  creating a database schema sufficient to capture, store and remove data efficiently, write an application for end-users that
+	  interacted with the database, and write an application that periodically scanned/aggregated for changes in the enterprise
+	  environment, updating the database as necessary.  
 	  * Queue / ip / DNS / etc changes are tracked and available for a quick search via a Windows client written in AutoIT that interacts
 	    directly with the SQL Server back-end (which I define and update automatically via a server-side scanning/parsing/update routine).  
 	  * This tool is currently being used by multiple teams, and helps alleviate some contention when making changes on end-point hardware
@@ -39,42 +39,43 @@
 	  * The AutoIT client program also allows for Excel exports of data that can be used in other automated processes / inventory efforts / 
 	    statistics / etc.
 
-- Built/maintain a FreeBSD server \w ZFS implementation (15 discs to SAS HBA).  Server hosts a mix of FreeBSD / Windows virtual hosts, as well
-  as a MySQL instance, PostgreSQL instance, iSCSI targets to ZFS (targets used by ESXi hosts), PF firewall, Samba server, etc.  Uptime ~2 years.
+- Built/maintain a FreeBSD server \w ZFS implementation (15 discs to SAS HBA).  Server hosts a mix of FreeBSD / Windows virtual hosts, as
+  well as a MySQL instance, PostgreSQL instance, iSCSI targets to ZFS (targets used by ESXi hosts), PF firewall, Samba server, etc.
+  Uptime ~2 years.
 
 (@ Ascension Technologies)
 - While acting as team lead during a McKesson Lab upgrade project, I worked with the vendor, system engineers, application analysts and
-  application owners to develop a cost-effective high availability / disaster recovery compliant system (new server back-ends for entire app).
-  The structure / testing was outside the scope of what the vendor could offer regarding HA/DR solutions.  Features included a mostly virtual
-  server architecture, VMware (VMotion + VPlex) technology to move running servers (Windows Server & Linux Redhat) transparently between data
-  centers, Triple redundant database server architecture, all thoroughly tested and documented such that the business can attain our goal of
-  99.9% uptime for the McKesson Lab application.
+  application owners to develop a cost-effective high availability / disaster recovery compliant system (new server back-ends for entire
+  app). The structure / testing was outside the scope of what the vendor could offer regarding HA/DR solutions.  Features included a
+  mostly virtual server architecture, VMware (VMotion + VPlex) technology to move running servers (Windows Server & Linux Redhat)
+  transparently between datacenters, Triple redundant database server architecture, all thoroughly tested and documented such that the
+  business can attain our goal of 99.9% uptime for the McKesson Lab application.
 
 (@ Ascension Technologies)
 - While acting as team lead during a McKesson Lab upgrade project, I wrote a number of scripts and programs that automated the client PC
   identification/Citrix login process.  
 	* I utilized company-acceptable development tools/languages, and removed a SQL Server instance that had been used to perform this task
 	  previously (saving a fair amount of license $$, migrating functions to the existing Oracle servers).   
-	* I added a number of enhancements such that logging and administration of user sessions, including adding a user-friendly web interface
-	  (HTML/CSS/Javascript/Classic ASP/Bootstrap/JQuery) such that administrators could perform labor intensive tasks across all environments
-	  simultaneously with a few clicks.  
-	* This new login process included writing a TCP server in Python that runs on a Linux application server, which facilitates ‘renewing stale
-	  nodes’, a task that previously was performed manually, requiring incidents and a help desk call.  The new process has prevented hundreds
-	  of tickets (as documented in the database) in its first 12 months of production use.
-	* I resolved a post-implementation issue by reverse engineering TCP communication between application components, writing a windows service
-	 (Python), and created a Powershell script, that acted in-concert to prevent the issue (application user credential swapping mid-session! –
-	  The vendor could not resolve).
+	* I added a number of enhancements such that logging and administration of user sessions, including adding a user-friendly web
+	  interface(HTML/CSS/Javascript/Classic ASP/Bootstrap/JQuery) such that administrators could perform labor intensive tasks across
+	  all environments simultaneously with a few clicks.  
+	* This new login process included writing a TCP server in Python that runs on a Linux application server, which facilitates ‘renewing
+	  stale nodes’, a task that previously was performed manually, requiring incidents and a help desk call.  The new process has
+	  prevented hundreds of tickets (as documented in the database) in its first 12 months of production use.
+	* I resolved a post-implementation issue by reverse engineering TCP communication between application components, writing a windows
+	  service(Python), and created a Powershell script, that acted in-concert to prevent the issue (application user credential swapping
+	  mid-session! – The vendor could not resolve).
 
 (@ Ascension Technologies)
 - I’ve been tasked by my director to help other teams solve technical issues.  When Wheaton Franciscan Healthcare separated from its Iowa
-  component, many integrated software systems needed to be split and/or migrated to new systems.  To facilitate some of the one-time functions
-  required (where the vendors would not or could not help):
+  component, many integrated software systems needed to be split and/or migrated to new systems.  To facilitate some of the one-time
+  functions required (where the vendors would not or could not help):
 	* I coded an AutoIT script that re-sent several thousand patient records out of the WFHC Dictaphone system out to the new system.  
-	* I also wrote a javascript routine that was successfully injected/run against the WFHC PowerScribe 360 environment, allowing me to send
-	  thousands of patient records across an outgoing interface automatically (to the new EMR).  
+	* I also wrote a javascript routine that was successfully injected/run against the WFHC PowerScribe 360 environment, allowing me to
+	  send thousands of patient records across an outgoing interface automatically (to the new EMR).  
 
 - While working @ Specialty Screening LLC, I reverse engineered a database schema in-use with a laboratory instrument (Thermo Scientific
   MGC240), and modified the schema such that it would support an AutoIT GUI that I wrote in order to facilitate administration of patient
-  results between instrument runs and final reporting.  In addition, I wrote Crystal report templates that were used with all out-going patient
-  reports, as well as statistical monitoring of various clinical lab parameters (QC trend + standard deviation graphs/reports, proficiency
-  testing reports, calibrator reports, etc).
+  results between instrument runs and final reporting.  In addition, I wrote Crystal report templates that were used with all out-going
+  patient reports, as well as statistical monitoring of various clinical lab parameters (QC trend + standard deviation graphs/reports,
+  proficiency testing reports, calibrator reports, etc).
