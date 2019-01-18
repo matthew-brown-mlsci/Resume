@@ -7,5 +7,9 @@ Database Experience:
 •	SQLite
 •	Intersystems Cache
 •	Connecting to these databases via ODBC \w Crystal Reports & various programming language APIs
-•	Using Python/AutoIT/Powershell/etc to transfer/manipulate  data between different databases/database types
+•	Using Python/AutoIT/Powershell/etc to perform ETL functions on data between different databases/database types
 •	Creating Web->Database bridges via IIS/ASP/ODBC that utilize JSON over HTTP connections to facilitate database interaction.
+•	Defining schemas for database-driven software written in-house.
+•	Locating, editing, and sometimes deleting problimatic data in production clinical databases.
+•	Utilizing Crystal Reports & Business Objects report server software to facilitate coherent reports for operations.
+•	Analyzing / manipulating vendor schemas to suit the operational needs of my organization.

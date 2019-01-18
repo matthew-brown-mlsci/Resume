@@ -1,7 +1,7 @@
 Network experience:
 
 •	TCP/IP networks – including writing custom TCP servers/clients for various clinical applications
-o	Including various common services: DNS, telnet, ssh, smtp, ftp, tftp, snmp, dhcp, http, rdp, etc
+o	Working with various common services: DNS, telnet, ssh, smtp, ftp, tftp, snmp, dhcp, http, rdp, etc
 o	Installation/Configuration/Troubleshooting/etc for all listed common services
 •	Desktop PC physical hardware (10/100/1000baseT, BNC/AUI based network adapters, wireless network technologies etc)
 •	Firewalls (IPFilter, IPF) – rules, filters, redirects, routing, NAT, using multiple NICs, etc.
