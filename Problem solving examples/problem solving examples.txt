@@ -7,8 +7,8 @@
 	  * Captured specific interface errors on the MLab Linux application server, as they were created
 	  * Located the original incoming transaction that generated the error
 	  * Edited the transaction such that the interface issue was resolved
-	  * Resent the edited HL7 transaction through lablink  interface engine– all fast enough such that MLab’s container logic would group
-	    new orders + edited/resent orders together.
+	  * Resent the edited HL7 transaction through lablink  interface engine– all fast enough such that MLab’s container logic would
+	    group new orders + edited/resent orders together.
 	This script was used in a production environment for ~3 years before being deprecated by various Epic-side changes.
 
 (@ Ascension Technologies)
@@ -17,10 +17,10 @@
   (days) plus large $$ contract to fly personnel on-site for changes.  My solution required a good understanding of TCP/IP networking,
   enterprise environment demands associated with production clinical systems, and time/budget constraints.
 	- Implemented solution (per my recommendations):
-	  * I worked with one of our network engineers to use virtual IP’s + in-house personnel to make all configuration changes over a 4 week
-	    time period with downtime limited only to each individual POC device as it was adjusted.  
-	  * I also came up with a way to remotely adjust ~50% of the POC base stations (those that supported remote adjustment) saving quite a
-	    bit of time and mileage.  
+	  * I worked with one of our network engineers to use virtual IP’s + in-house personnel to make all configuration changes over
+	    a 4 week time period with downtime limited only to each individual POC device as it was adjusted.  
+	  * I also came up with a way to remotely adjust ~50% of the POC base stations (those that supported remote adjustment) saving
+	    quite a bit of time and mileage.  
 	  * This effort made a huge impact on patient care, as well as the financial liability of the IP remuneration project.
 
 (@ Ascension Technologies)
