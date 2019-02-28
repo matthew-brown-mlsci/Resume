@@ -1,4 +1,4 @@
-Clinical Application support experience:
+﻿Clinical Application support experience:
 	- These are all applications that I have supported in an on-call rota.
 
 •	Allscripts Lab (aka McKesson Lab aka Horizon Lab) (v8 -> v16.03)
@@ -16,7 +16,7 @@ Clinical Application support experience:
 •	ECS
 •	Mediware HCLL + APBC
 	- Participated in all recent upgrade projects
-	- Implemented AutoIT script that checks memory allocation for certain propietary system compoenents (server-side).
+	- Implemented AutoIT script that checks memory allocation for certain proprietary system components (server-side).
 	  Script alerts technical staff if memory allocation exceeds limits.
 •	Lawson (LSF + TM)
 •	McKesson Practice Plus (aka PPM)
@@ -25,7 +25,7 @@ Clinical Application support experience:
 •	Sunquest PowerPath (aka Tamtron)
 •	Sunquest Antrim (Intersystems Cache based db/app)
 •	Sunquest Lab (Intersystems Cache based db/app)
-	- Regularily utilized (as a user) in operations for 6 years
+	- Regularly utilized (as a user) in operations for 6 years
 	- Admin access + technical resource for WFHC Iowa Sunquest Lab instance 2014->2017
 	- Team project lead Data Innovations implementation for Sunquest Lab interfaces.
 	- Created Perl script for report capture/transfer to facilitate blood bank 'downtime pc' project.
