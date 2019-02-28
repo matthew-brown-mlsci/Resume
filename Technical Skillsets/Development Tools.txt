@@ -1,4 +1,4 @@
-Development Tool Experience:
+﻿Development Tool Experience:
 
 •	Python (v2.x & v3.x)
 	- With Spider IDE
@@ -6,7 +6,7 @@ Development Tool Experience:
 	  laboratory information system (running on Redhat Linux)
 	- Designed an extract algorithm for various Service-Now tables to SQLite db
 	- Created TCP server as a windows service, used to facilitate various work-arounds for buggy clinical application software.
-	- Authored windows service that monitors a SQLite database, queries via rulesets stored in the database, prints clinical
+	- Authored windows service that monitors a SQLite database, queries via rule sets stored in the database, prints clinical
 	  application interface data as appropriate.
 	- Designed a TCP server that acted as a pseudo-printer target, catching print job data, parsing data, and passing to a 
 	  remote server via JSON/RESTful protocol.
@@ -34,7 +34,7 @@ Development Tool Experience:
 
 •	Shell scripting (Bash, Ksh, etc)
 	- Wrote/maintain a number of Bash scripts that get kicked off \w cron on RedHat Linux laboratory application server.
-	- Scripts: Move/concatenate files, check certain filesizes, check propietary vendor faxing conditions, archive reports,
+	- Scripts: Move/concatenate files, check certain filesizes, check proprietary vendor faxing conditions, archive reports,
 	  make Oracle database changes, copy clinical data files to windows fileshares, etc - most with e-mail notification for
 	  errors and/or relevant events.
 	- Used Ksh for similar tasks on Allscripts Sunrise financials server, Sunquest lab AIX server, etc.
@@ -87,7 +87,7 @@ Development Tool Experience:
 	  usually fix/create VB for the purposes of integrating programming logic in a Microsoft Office task.
 
 •	ASP Classic
-	- My employer, ridgidly denying license requests for software (Visual Studio namely), placed me in a position where building
+	- My employer, rigidly denying license requests for software (Visual Studio namely), placed me in a position where building
 	  web applications based on ASP Classic seemed very reasonable (debugging can be done in a web browser \w IIS, no IDE needed!)
 	- I've used ASP Classic to create JSON/RESTful interfaces to ODBC database connections.
 	- This has allowed me to create javascript-powered web apps that interact with practically any database

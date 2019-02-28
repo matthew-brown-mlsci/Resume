@@ -1,4 +1,4 @@
-Enterprise / Misc application experience:
+﻿Enterprise / Misc application experience:
 
 •	Service-Now (including data extraction via RESTful python scripts)
 •	Microsoft Office (Word, Excel, Outlook, PowerPoint, Access, Visio) (2000, 2003, 2010, 365)
