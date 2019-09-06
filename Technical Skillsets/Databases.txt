@@ -16,9 +16,12 @@
 	- Design custom schemas
 	- Perform ETL \w custom software (AutoIT + Python)
 	- Design javascript powered websites that utilize MySQL backend
-•	PostgreSQL (\w PhpPgAdmin + Apache)
-	- Installation / config on FreeBSD vm
-	- Just started exploring capabilities of this db recently (12/2018) - looks great so far!
+•	PostgreSQL
+	- Installation / config on FreeBSD, Ubuntu, used in docker containers, AWS RDS
+	- Used extensively in LenderClose consulting gig, as the API back-end db
+		- wrote API-safe GET/INSERT/DELETE/UPDATE queries following REST-based best practice (\w psycopg)
+	- Performed DevOps db functions (dumps, restores, edits, bugfixes, schema updates, troubleshooting, etc) using
+	  CLI tools + DBeaver.  Setup AWS RDS (Multi AZ + read replicas) for production environment.
 •	SQLite
 	- My go-to for any small data project where "This requires more than a spreadsheet"!
 	- Utilized \w ASP Classic + Python

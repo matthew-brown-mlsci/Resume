@@ -1,7 +1,8 @@
 ﻿Development Tool Experience:
 
 •	Python (v2.x & v3.x)
-	- With Spider IDE
+	- With various IDE's (Spyder, Atom, VSCodium, pyCharm)
+	- Implemented Flask-based API's following RESTful best practices
 	- Designed/implemented TCP server that allowed persons/automated services to interact with proprietary components of a laboratory
 	  laboratory information system (running on Redhat Linux)
 	- Designed an extract algorithm for various Service-Now tables to SQLite db
@@ -22,7 +23,7 @@
 	- Probably a bunch of other things I can't think of right now - Python is my go-to tool when a problem exceeds a
 	  simple shell script / batch file!
 
-•	Javascript (\w HTML, CSS, Bootstrap, JQuery)
+•	Javascript (\w HTML, CSS, Bootstrap, JQuery, Riot, React)
 	- Created an IIS site that automated many of the admin tasks associated with maintaining a database of client PCs for
 	  an LIS app.  This site used javascript to interact with ASP classic code that interacted with databases as well as 
 	  custom AutoIT widgets.
@@ -31,6 +32,8 @@
 	  windows server-side SQLite database.
 	- Created a website that tracked user's locations based on dns resolution / ip address blocks.  Interacted with SQLite
 	  database server-side.
+	- Added new front-end functionality to various LenderClose technical debt items using Riot and React frameworks
+		- including ajax calls to API endpoints for interactive, database driven web applications.
 
 •	Shell scripting (Bash, Ksh, etc)
 	- Wrote/maintain a number of Bash scripts that get kicked off \w cron on RedHat Linux laboratory application server.
@@ -109,5 +112,15 @@
 	- I've learned enough SAS/JCL to read/interpret some legacy code in order to port a mainframe process to a different architecture.
 
 •	git
-	- I'm a relatively recent git convert, and am working on publishing some of my historical code on Github, as time allows!
+	- Worked with a team of developers, contributing code and fixes to several repositories (Bitbucket)
+	- Familiar with maintaining a clean commit history, rebasing, fixing problems, etc
+
+•	Terraform
+	- Architected AWS ECS microservice architecture using primarily Terraform code.
+	- Familiar with various pitfalls of using Terraform to facilitate all manner of AWS VPC creation/configuration
+
+•	Ansible
+	- Used to automate deployment configuration for AWS EC2 instances
+
+	
 	
