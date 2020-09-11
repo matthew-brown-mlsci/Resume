@@ -1,10 +1,5 @@
 References:
 
-Kristin Barber MT(ASCP)
-Senior Application Product Analyst, Lab Analytics Team
-Aurora Health Care – ACL central lab, West Allis Medical Center
-414-328-6828
-
 Jeff Newcomb
 Senior Solutions Development Analyst
 Ascension Technologies 
@@ -15,15 +10,20 @@ Director of Technology
 LenderClose
 515-822-2502
 
-Bala Ganeshan
-Senior Solutions Development Analyst
-Ascension Technologies 
-414-465-4384
+Kristin Barber MT(ASCP)
+Senior Application Product Analyst, Lab Analytics Team
+Aurora Health Care – ACL central lab, West Allis Medical Center
+414-940-3401
 
 Janette Mamedova 
 Solutions Development Analyst, Clinical Laboratory Management
 Ascension Technologies 
 414-465-3172 
+
+Bala Ganeshan
+Senior Solutions Development Analyst
+Ascension Technologies 
+414-465-4384
 
 Brad De Pons MLS(ASCP)
 Clinical Instructor, Laboratory Manager
