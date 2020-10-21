@@ -8,12 +8,16 @@
 	- Go-to person for all emergent technical issues
 •	3M CRS
 	- Team project lead during implementation (2016)
+•	MLab Node Manager (in-house developed app)
+•	MLab HL7 error collector (in-house developed app)
+•	MLab Citrix Farm admin (in-house developed app)
 •	CBord
 •	CNexT
 •	Allscripts Sunrise (v5.7) (Intersystems Cache based db/app)
 	- Regular fill-in Cache DBA
 •	Pathlore
 •	ECS
+•	KSWIC Printer Association Manager (in-house developed app)
 •	Mediware HCLL + APBC
 	- Participated in all recent upgrade projects
 	- Implemented AutoIT script that checks memory allocation for certain proprietary system components (server-side).

@@ -1,8 +1,11 @@
 ﻿Enterprise / Misc application experience:
 
 •	Service-Now (including data extraction via RESTful python scripts)
+•	G-suite (Google's corporate productivity tools current in-use @ Ascension)
+•	Jira / Slack (Agile framework, stories, epics, etc)
 •	Microsoft Office (Word, Excel, Outlook, PowerPoint, Access, Visio) (2000, 2003, 2010, 365)
 •	Cygwin
+•	Printer Reporter (in-house developed app/db)
 •	Various SysInternals utilities (Process Explorer, Process Monitor, Handle, etc)
 •	Citrix XenApp (as an admin) (v5.0, v6.5)
 •	AQT

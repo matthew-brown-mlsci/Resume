@@ -122,5 +122,8 @@
 •	Ansible
 	- Used to automate deployment configuration for AWS EC2 instances
 
+•	Jira
+	- Used to facilitate organizing dev/devops work
+
 	
 	
