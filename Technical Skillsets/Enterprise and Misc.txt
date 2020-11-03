@@ -16,3 +16,5 @@
 •	VMware vSphere server/web console, windows management client
 •	ZFS RAID implementations on FreeBSD
 •	VirtualBox
+•	Elastiflow (+install/setup Elasticsearch/Logstash/Kibana)
+
