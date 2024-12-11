@@ -1,35 +1,41 @@
 References:
 
-Jeff Newcomb
-Senior Solutions Development Analyst
-Ascension Technologies 
-262-893-7579
-
-Dan Davis
-Director of Technology
-LenderClose
-515-822-2502
-
-Kristin Barber MT(ASCP)
-Senior Application Product Analyst, Lab Analytics Team
-Aurora Health Care – ACL central lab, West Allis Medical Center
-414-940-3401
-
-Janette Mamedova 
-Solutions Development Analyst, Clinical Laboratory Management
-Ascension Technologies 
-414-465-3172 
-
 Bala Ganeshan
-Senior Solutions Development Analyst
+Senior Technical Project Manager
+McKesson Technology
+262-327-8810
+
+Branden Hoiska
+Senior Healthcare Data Engineer
+Trinisys / Harmony Healthcare IT
+906-869-4940
+
+Jeff Newcomb
+Senior Solutions Development Analyst (retired)
 Ascension Technologies 
-414-465-4384
+262-409-0181
+
+Aaron Williams
+Director / Healthcare Data Architect
+Trinisys / Harmony Healthcare IT
+615-423-4277
+
+Candace McBride
+Healthcare Data Engineer
+Trinisys
+901-216-6734
 
 Brad De Pons MLS(ASCP)
 Clinical Instructor, Laboratory Manager
 University of Wisconsin-Milwaukee, Biomedical Sciences.
 414-803-7965
 
-Chris Schmitt
-Specialty Screening LLC (former business owner)
-773-426-5060
+Kristin Barber MT(ASCP)
+Senior Application Product Analyst, Lab Analytics Team
+Aurora Health Care
+414-940-3401
+
+Janette Mamedova 
+Solutions Development Analyst, Clinical Laboratory Management
+Ascension Technologies 
+414-465-3172
